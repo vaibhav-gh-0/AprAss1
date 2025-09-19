@@ -1,4 +1,4 @@
-# AprAss1
+# APR Ass1
 
 # Customer Retention Prediction Model
 
@@ -60,5 +60,4 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 - Multiple visualization charts
 - Model performance comparison
 
----
-**Course Project - Machine Learning**
+
