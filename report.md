@@ -63,46 +63,11 @@ search.fit(X_train, y_train)
 
 ---
 
-## 3. Results and Analysis
-
-### Model Performance
-
-| Model | Accuracy | ROC-AUC |
-|-------|----------|---------|
-| Logistic Regression | [Insert Result] | [Insert Result] |
-| K-Nearest Neighbors | [Insert Result] | [Insert Result] |
-| SVM (Linear) | [Insert Result] | [Insert Result] |
-| SVM (RBF) | [Insert Result] | [Insert Result] |
-
 ### Visualizations Generated
 
-**[Screenshot: Exploratory Data Analysis]**
-- Customer churn distribution
-- Monthly vs Total charges analysis
-- Tenure patterns
-
-**[Screenshot: Model Performance Comparison]**
-- Accuracy and ROC-AUC comparison charts
-- Performance heatmap
-
-**[Screenshot: ROC Curves]**
-- ROC curve comparison for all models
 <img width="1438" height="510" alt="image" src="https://github.com/user-attachments/assets/72efdeda-96cc-4a7b-bebf-906e4b71195b" />
-
 <img width="683" height="610" alt="image" src="https://github.com/user-attachments/assets/08c67207-4593-4c79-9fb2-74bff8a77a3d" />
 
-
-**[Screenshot: Confusion Matrices]**
-- Individual confusion matrices showing prediction accuracy
-
-### Key Findings
-- **Best Model:** [Insert best performing model]
-- **Important Features:** Contract type, tenure, monthly charges
-- **Churn Rate:** [X]% of customers churn
-- **Business Insight:** Month-to-month contracts have highest churn rates
-
-### Conclusion
-Successfully implemented and compared 4 machine learning models for customer churn prediction. The project demonstrates effective use of preprocessing, hyperparameter tuning, and comprehensive evaluation metrics. Results provide actionable insights for customer retention strategies.
 
 ---
 
@@ -240,9 +205,9 @@ for name, (pipeline, params) in models_to_run.items():
     print(classification_report(y_test, y_pred))
     print("-" * 50 + "\n")
 
-# =============================================================================
-# ADDITIONAL VISUALIZATIONS
-# =============================================================================
+
+#  VISUALIZATIONS
+
 
 # Set up the plotting style
 plt.style.use('seaborn-v0_8')
